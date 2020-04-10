@@ -1,6 +1,6 @@
 node{
     stage{'SCM Checkout'){
-       git 'https://github.com/pratikinamake/maven.git'
+       git 'https://github.com/pratikinamake/maven'
      }
      
      stage('compile package'){
